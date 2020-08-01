@@ -1,3 +1,7 @@
 .article{
     width: 65%;
 }
+#cover_photo{
+    width: 65%;
+    height: 450px;
+}
