@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Log in</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<h2>ULTIMATE FRISBEE HISTORY</h2>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="teams.html">Teams</a>
+				<a href="history.html">History</a>
+				<a href="login.html" id="active">Log in</a>
+			</nav>
+		</header>
+		<div id="first_section">
+			
+		</div>
+		<div id="second_section">
+			<form novalidate>
+				<fieldset>
+					<legend>Sign up</legend>
+					<label for="Name">
+						Name : 
+					</label>
+						<input type="text" id="Name" name='Name' value="" placeholder="Name">
+					<br/><br>
+					<label for="username">
+						Username : 
+					</label>
+						<input type="text" id="username" name='username' value="" placeholder="username" required>
+					<br/><br>
+					<label for="email">
+						E-mail :
+					</label>
+					<input type="email" id="email" name="email" placeholder="Email" required>
+					<br/><br>
+					<label for="password">
+						Password :  
+					</label>
+						<input type="password" id="password" name="password" placeholder="password" required>
+					<br/><br>
+					<label for="re-type">
+						Re-type Password :
+					</label>
+						<input type="password" id="re-type" name="re-type" placeholder="Re-type Password">
+					<br/><br>
+					<label for="date">
+						Date of birth :
+					</label>
+						<input type="date" id="date" name="date">
+					<br/><br>
+					<label>Gender : </label>
+						<label>&nbsp;&nbsp; male</label><input type="radio">
+						<label>female</label><input type="radio">
+					<br/><br>
+						<input type="checkbox"><label>student</label>
+						<input type="checkbox"><label>part time employee</label>
+						<input type="checkbox"><label>full time employee</label>
+					<br/><br>
+					<label>Number : </label><input type="number">
+					<br/><br>
+					<label>Range : </label>
+						<input type="range">
+					<br/><br>
+					<label>Color : </label>
+						<input type="color">
+					<br/><br>
+					<label>URL : </label>
+						<input type="url">
+					<br/><br>
+						<input type="submit" value="Submit" style="color: white;background:black;">
+				</fieldset>
+			</form>
+		</div>
+		<footer>
+			<div class="half">
+		    	<h2>Favorite Foods</h2>
+		    	<ul>
+			      <li>Apples</li>
+			      <li>Pizza</li>
+			      <li>Beef</li>
+			      <li>Chocolate Cake</li>
+		    </ul>
+			</div>
+  
+	  		<div class="half">
+		    	<h2>Achievements</h2>
+      			<p>Progress in this course (100%)<progress value = "1"></progress><br/>Progress in the Specialization (20%) <progress max = "5" value = "1"></progress><br/>		Progress in life goals (67%)<progress max = "100" value = "67"></progress></p>
+			</div>
+
+  			<div class="half">
+		    	<h2>More About Me</h2>
+		    	<details open><summary>My Childhood</summary>
+				<p>I grew up in Ashtabula Ohio.  I lived near Lake Erie and I really miss the sunsets over the water. </p></details>
+				</div>
+		</footer>
+	</body>
+</html>
